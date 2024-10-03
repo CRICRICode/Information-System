@@ -1,0 +1,104 @@
+/* login-screen.component.scss */
+.login-screen {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      to bottom,
+      #e8d6b5,
+      #c7bdb1,
+      #a29887,
+      #716c60
+    ); /* Use the same gradient colors as in Flutter code */
+  
+    .content {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+      padding: 20px;
+      max-width: 400px;
+      width: 80%;
+      text-align: center;
+  
+      .title {
+        color: #000000;
+        font-size: 40px;
+        font-weight: bold;
+      }
+  
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+  
+        .label {
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+  
+        .input {
+          width: 100%;
+          height: 50px;
+          border: none;
+          border-radius: 20px;
+          padding: 0 15px;
+          color: #000000;
+          font-size: 16px;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  
+          &::placeholder {
+            color: #000000;
+            opacity: 0.5;
+          }
+        }
+      }
+  
+      .forgot-password {
+        color: #ffffff;
+        font-weight: bold;
+        margin-bottom: 10px;
+        align-self: flex-end;
+        text-decoration: none;
+      }
+  
+      .remember-me {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+  
+        .checkbox {
+          margin-right: 10px;
+        }
+  
+        .checkbox-label {
+          color: #000000;
+          font-weight: bold;
+        }
+      }
+  
+      .login-btn {
+        background-color: #fdbd13;
+        border: none;
+        border-radius: 20px;
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px 30px;
+        margin-top: 25px;
+        cursor: pointer;
+      }
+  
+      .signup-btn {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 15px;
+      }
+    }
+  }
+  

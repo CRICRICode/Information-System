@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('path/img/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-box {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5d0;
+    border-radius: 35px;
+  }
+
+  .login-box img {
+    content-visibility:visible;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .rounded-input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px; /* Aggiungi questo per fare spazio all'icona */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-container i {
+    position: absolute;
+    left: 10px;
+    color: #ccc;
+  }
+  
+  .remember-me {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .remember-me input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(228, 171, 0);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
