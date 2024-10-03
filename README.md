@@ -66,4 +66,7 @@ As mentioned in the documentation, the system is expected to be expanded in the 
 
 Please refer to the documentation for more detailed insights into the potential future developments and system requirements.
 
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
